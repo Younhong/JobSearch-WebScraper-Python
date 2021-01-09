@@ -3,7 +3,7 @@ from stackoverflow import get_jobs as get_so_jobs
 from indeed import get_jobs as get_indeed_jobs
 from export import save_to_file
 
-app = Flask("SuperScrapper")
+app = Flask("Job Scraper")
 
 db = {}
 
